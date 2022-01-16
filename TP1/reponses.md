@@ -1,42 +1,28 @@
 ## Question 1
-Dans la fonction step du classe Villager , j'ai ajouté une boucle sur tous les autres villagers
-qui se trouvent dans model.schedule.agent_buffer() et j'ai filitré ceux qui ont une distance
-inférieure à 40. Cela est bien conforme avec la définition d'agent vue en cours car 
-le loup garou évolue et il est capable de percevoir l'environnement (distance <=40)  et 
-agit sur les autres villagers.
+Dans la fonction step de la classe Villager , j'ai ajouté une boucle sur tous les autres villageois
+qui se trouvent dans model.schedule.agent_buffer() et J'ai filtré ceux avec une distance inférieure à 40 . Ceci est bien conforme à la définition actuelle de l'agent de vue car
+le loup-garou évolue et est capable de percevoir l'environnement (distance <=40) et agit sur les autres villageois.
 
 ## Question 2
-Le système converge vers la présence de quelques villageois et les chasseurs et les apothicaires et quelques loup garou qui sont très loin des chasseurs.
-Le role des apothicaires n'est pas vraiment intéréssant car les loup garou se transforme
-rapidement et par suite il n'a pas d'effet.Par contre , la présence des chasseurs influe 
-beacoup sur le convergence car il permet d'éliminer les loup garou transformé et par suite
-diminue le nombre de villageois transformés en loup garou.
+Le système converge vers la présence de quelques villageois et chasseurs et apothicaires et de quelques loups-garous très éloignés des chasseurs.
+Le rôle des apothicaires n'est pas vraiment intéressant car les loups-garous se transforment vite et du coup ça n'a aucun effet .Par contre , la présence de chasseurs influence grandement la convergence car ils éliminent les loups-garous transformés et donc réduisent le nombre de villageois transformés en loups-garous.
 
 ## Question 3
-Il reste aucun villageois dans l'environnement et c'est parce que les loup garou transforment
-rapidement et donc on doit augmenter le nombre de chasseurs ou diminuer le nombre de loup garou
-pour avoir de villageoie sain à la fin.
+Il n'y a plus de villageois dans l'environnement et c'est parce que les loups-garous se transforment rapidement et nous devons donc augmenter le nombre de chasseurs ou diminuer le nombre de loups-garous pour avoir un village d'oies en bonne santé à la fin.
 
 ## Question 4
 
-En comparant les résultats on trouve que même si on diminuant le nombre de loup group à
-2 le résultat est la même qu'avec 5 loup garou. Mais en augmentant le nombre de chasseur de 
-2 à 5 on remarque une grande amélioration du résultat , il reste beaucoup de villageois à la fin. 
+En comparant les résultats, nous constatons que même si nous diminuons le nombre de groupes de loups à 2, le résultat est le même qu'avec 5 loups-garous. Mais en faisant passer le nombre de chasseurs de 2 à 5 on constate une amélioration du résultat, il reste encore beaucoup de villageois à la fin.
 
 ## Question 5
-Comme j'ai déja dit dans les questions précédentes. Le nombre de chausseur est le plus 
-important dans la simulation.
+Comme je l'ai déjà dit dans les questions précédentes. Le nombre de chaussures est le plus important dans la simulation.
 
 ## Question 6
 
-L'hpothèse je pose c'est que si le nombre d’apothicaires est très grand on peut trouver
-un peut d'amélioration mais sinon ça ne va pas influencer beaucoup à cause du taux de transformation
-des loup graou.
+Mon hypothèse est que si le nombre d'apothicaires est très important, on peut trouver un peu d'amélioration, mais sinon cela n'aura pas beaucoup d'influence à cause du taux de transformation des loups-garous.
 
 ## Question 7
-Dans les 5 runs on trouve qu'il n'y a plus d'humain à la fin et le nombre de loup garou
-transofmré et au moyenne de 36. Donc on conclue que le nombre d’apothicaires  n'a pas de grande effet sur la simulation.
-
+Dans les 5 runs on constate qu'il n'y a plus d'humain à la fin et le nombre de loups garous transformés et en moyenne 36. On en conclut donc que le nombre d'apothicaires n'a pas un gros effet sur la simulation.
 
 ## Question bonus
 
