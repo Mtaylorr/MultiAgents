@@ -1,5 +1,5 @@
 ## Question 1
-
+L'architecture du robot et réactive car le robot va faire plusieurs actions à chaque step selon le cas ( éviter les robots , détecter les mines , ...) 
 
 ## Question 2
 
